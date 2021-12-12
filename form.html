@@ -4,8 +4,35 @@
     </head>
     <body>
         <form>
-            <input type ='text' placeholder=" full name" name="name">
-            <button>submit!</button>
+            <div>
+                <input type ='text' placeholder=" full name" name="name">
+                <button>submit!</button>
+                <input name="password" type="password" placeholder="password">
+                <button>submit!</button>
+            </div>
+            
+            <div>
+                what year are you in?
+                <input name="year" type="radio" value="year 1"> year 1
+                <input name="year" type="radio" value="year 2"> year 2
+                <input name="year" type="radio" value="year 3"> year 3
+                <input name="year" type="radio" value="year 4"> year 4
+
+            </div>
+
+            Course name
+            <input name="course" list="courses" placeholder="course">
+            <datalist id="courses">
+                <option value="business">
+                <option value="engineering">
+                <option value="architecture">
+                <option value="medicine">
+                <option value="land economy">
+                <option value="mathematics">
+                <option value="chemistry">
+
+                </option>
+            </datalist>
         </form>
     </body>
 </html>
